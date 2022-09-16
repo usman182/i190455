@@ -2,6 +2,7 @@ package com.muhammadusman.i190455;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;
 import android.view.View;
@@ -14,6 +15,7 @@ import android.widget.Toast;
 
 public class activity_2 extends AppCompatActivity {
 
+
     TextView txt1;
     EditText edtxt1;
     EditText edtxt2;
@@ -24,9 +26,9 @@ public class activity_2 extends AppCompatActivity {
     ImageButton imgbt3;
     CheckBox checkBox1;
     Button btn1;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
 
@@ -76,7 +78,8 @@ public class activity_2 extends AppCompatActivity {
                 }
 
                 else {
-                    setContentView(R.layout.activity_3);
+
+                startActivity(new Intent(activity_2.this, activity4.class));
                 }
 
             }
@@ -87,6 +90,15 @@ public class activity_2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 edtxt3.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+            }
+        });
+
+        // for sign in
+        txt1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               // setContentView(R.layout.activity_3);
+                startActivity(new Intent(activity_2.this, activity_3.class));
             }
         });
 

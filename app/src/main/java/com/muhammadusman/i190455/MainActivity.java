@@ -14,6 +14,7 @@ import java.util.TimerTask;
 public class MainActivity extends AppCompatActivity {
 
     Timer timer;
+    ImageView img1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         }, 1500);
+
+
 
     }
 }
