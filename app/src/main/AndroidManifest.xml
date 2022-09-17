@@ -40,12 +40,15 @@
         <activity
             android:name=".activity15"
             android:exported="false" />
-        <activity
-            android:name=".activity13"
-            android:exported="false" />
+
         <activity
             android:name=".activity14"
             android:exported="false" />
+
+        <activity
+            android:name=".activity13"
+            android:exported="false" />
+
         <activity
             android:name=".activity12"
             android:exported="false" />
