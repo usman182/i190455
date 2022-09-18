@@ -40,13 +40,6 @@
             android:textSize="35dp"
             android:textStyle="bold" />
 
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_alignParentLeft="true"
-            android:layout_marginTop="230dp"
-            android:src="@drawable/facebook"
-            android:layout_marginStart="35dp"/>
 
         <Button
             android:id="@+id/continuewithfacebook"
@@ -60,6 +53,13 @@
             android:textSize="20dp"
             android:textStyle="bold" />
 
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="230dp"
+            android:src="@drawable/facebook"
+            android:layout_marginStart="35dp"/>
 
         <Button
             android:id="@+id/continuewithgoogle"

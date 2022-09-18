@@ -55,7 +55,7 @@
 
         <Button
             android:id="@+id/playlist"
-            android:layout_width="185dp"
+            android:layout_width="175dp"
             android:layout_height="55dp"
             android:background="@drawable/rounded_texts_2"
             android:backgroundTint="#48311b"
@@ -65,7 +65,7 @@
 
         <Button
             android:id="@+id/music"
-            android:layout_width="185dp"
+            android:layout_width="175dp"
             android:layout_height="55dp"
             android:background="@drawable/rounded_texts_2"
             android:backgroundTint="@color/corn"
@@ -194,8 +194,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="190dp"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginTop="200dp">
 
 
         <ImageButton
@@ -267,7 +267,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="35dp"
+            android:layout_marginStart="25dp"
             android:text="listen Later"
             android:textColor="@color/white"
             android:textStyle="bold" />
