@@ -18,17 +18,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_23);
+        setContentView(R.layout.activity_main);
 
-//        timer = new Timer();
-//        timer.schedule(new TimerTask() {
-//            @Override
-//            public void run() {
-//                Intent intent = new Intent(MainActivity.this, activity_2.class);
-//                startActivity(intent);
-//                finish();
-//            }
-//        }, 1500);
+        timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(MainActivity.this, activity_2.class);
+                startActivity(intent);
+                finish();
+            }
+        }, 1500);
 
 
 
